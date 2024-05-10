@@ -1,0 +1,7 @@
+{
+    "dependencies": {
+        "@proton/cli": "^0.1.93",
+        "child_process": "^1.0.2",
+        "util": "^0.12.5"
+    }
+}

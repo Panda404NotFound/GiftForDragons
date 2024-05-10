@@ -1,0 +1,17 @@
+[package]
+name = "stakelp"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+regex = "1.5"
+async-std = "1.9.0"
+rand = "0.8"
+
+[profile.release]
+lto = true
+

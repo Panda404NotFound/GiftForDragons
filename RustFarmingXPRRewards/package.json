@@ -1,0 +1,7 @@
+{
+    "dependencies": {
+      "@proton/api": "^28.7.1",
+      "@proton/cli": "^0.1.93",
+      "expect": "^29.7.0"
+    }
+}
