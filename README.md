@@ -1,4 +1,4 @@
-# GiftForDragon
+# GiftForDragons
 General description:
 
 This is an autocompounding bot that uses XPR/XUSDC SNIPS/XPR pools for autostaking. Its yield ranges from 65% to 100% APY. Launching and scaling of bots happens through docker containers and two-three virtual machines. The bot is processor-based, interacts with the proton client and works in the command shell, which is why three or more virtual machines are recommended.
@@ -16,6 +16,8 @@ b) Go to the desktop version of the wallet on PC, manage wallet, three dots on t
 3. For a workstation or virtual machine, 30 GB of memory, 1 core is required.
 4. A private Github repository where you will place each script module for compilation on a workstation or virtual machine.
 5. Keep the working server constantly on or use cloud servers.
+
+!!! CHANGE IN CODE panda4.gm TO YOUR ACCOUNT !!!
 
 Step-by-step plan:
 
