@@ -54,6 +54,23 @@ Place each script module "Liquidity, RustFarmingXPRRewards, StakeLP, Transfer, W
 
 All in the PROTON_COMMANDS.md file
 
+
+### **Pros and Cons:**
+
+Pros:
+1) The bot increases pool profitability by 30-40% due to its auto-compounding strategy. The average APY is 75%
+2) Personal bot, full control
+3) Simple code for creating your own strategy
+
+Cons:
+1) Complicated setup for beginners
+2) Requires a constant server
+3) Integrated with a shell client, instead of the Proton API
+4) Resource-intensive scaling
+
+My recommendation is to use pooled capital and a single, constant server.
+I wrote this bot from the heart, testing the mechanisms of the Rust language. It can be made faster, easier to scale. If we get 15 stars here, I will create a script through the Proton API.
+
 ### **Recommendations:**
 
 For stable operation of the bot, 3-5 virtual machines are recommended. Everything can be easily installed on your working PC. Two modules of the bot need to be installed once, the remaining three up to 5 times, on each unique machine. More copies of the bot do not increase productivity. Each file has auto-scripts that will run everything for you, you only need to press two buttons and add your public key to github to download the project via ssh. Or you can make it public by downloading via https, but you will need to change the autostart scripts.
